@@ -6,7 +6,7 @@ const cityText = document.getElementById("city");
 const humidityText = document.getElementById("humidity");
 const windText = document.getElementById("wind");
 
-const apiKey = "032590c112d32ac5383879526773b1ce";
+const apiKey = "your_api_key";
 const cityDefault = "Oslo";
 const baseUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
