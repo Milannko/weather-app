@@ -6,9 +6,9 @@ const cityText = document.getElementById("city");
 const humidityText = document.getElementById("humidity");
 const windText = document.getElementById("wind");
 
-const apiKey = "your_api_key";
+const apiKey = "032590c112d32ac5383879526773b1ce";
 const cityDefault = "Oslo";
-const baseUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+const baseUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 btnSearch.addEventListener("click", () => {
   const city = input.value;
@@ -17,7 +17,7 @@ btnSearch.addEventListener("click", () => {
 });
 
 function getWeather(city) {
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   fetch(url)
     .then((response) => response.json())

@@ -29,13 +29,14 @@ body {
     rgba(104, 229, 186, 1) 0%,
     rgba(67, 66, 106, 1) 100%
   );
+  border-radius: 10px;
 }
 
 .input-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .input {
